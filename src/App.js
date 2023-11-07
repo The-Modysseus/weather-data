@@ -19,14 +19,7 @@ function App() {
           </Route>
         </Routes>
       </div>
-      <header className="App-header">
-        <h1>
-          Welcome to the Weather App!
-          </h1>
-      </header>
     </Router>
-      
-
   );
 }
 

@@ -21,19 +21,19 @@ export default function CityWeather(){
 
     return (
         <Fragment>
-            <label>
-                City:
-            <input>
-                type="text"
-                placeholder='Aarhus'
-                value={city}
-                onChange={event => setCity(event.target.value)}
-            </input>
-            </label>
-            <p>
-                Weather: <br />
-                {JSON.stringify(data)}
-            </p>
+          <h2>City search</h2>
+          <label>City:  
+          <input
+            type="text"
+            placeholder='Enter city name'
+            value={city}
+            onChange={event => setCity(event.target.value)}
+          />
+          </label>
+          <p>
+            Weather: <br />
+             {JSON.stringify(data)}
+          </p>
         </Fragment>
-    )
+      );
 }
